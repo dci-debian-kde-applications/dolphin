@@ -2,7 +2,8 @@ Source: dolphin
 Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cmake,
+Build-Depends: baloo-kf5-dev,
+               cmake,
                debhelper (>= 9),
                extra-cmake-modules,
                kde-sc-dev-latest (>= 4:4.12),
@@ -16,9 +17,12 @@ Build-Depends: cmake,
                libkf5config-dev,
                libkf5coreaddons-dev,
                libkf5dbusaddons-dev,
+               libkf5filemetadata-dev,
                libkf5i18n-dev,
                libkf5iconthemes-dev,
                libkf5kcmutils-dev,
+               libkf5kdelibs4support-dev,
+               libkf5newstuff-dev,
                libkf5notifications-dev,
                libkf5parts-dev,
                libkf5solid-dev,
