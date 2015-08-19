@@ -58,11 +58,45 @@ Description: file manager
    Undo/redo functionality
    Ratings, comments, and tags
 
+Package: dolphin-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: dolphin (<< 4:15.07.90+git20150819.0900)
+Replaces: dolphin (<< 4:15.07.90+git20150819.0900)
+Description: file manager - development files
+ Contains DBus interface XML files to access dolphin via the DBus
+ org.freedesktop.FileManager1 interface.
+
+Package: libdolphinvcs-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: foreign
+Depends: libdolphinvcs5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: dolphin (<< 4:15.07.90+git20150819.0900)
+Replaces: dolphin (<< 4:15.07.90+git20150819.0900)
+Description: library to show version control in Dolphin - development files
+ This library enables developers to expand Dolphin with the ability to show
+ version control status in directories that are version controlled.
+
+Package: libdolphinvcs5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: dolphin (<< 4:15.07.90+git20150819.0900)
+Replaces: dolphin (<< 4:15.07.90+git20150819.0900)
+Description: library to show version control in Dolphin
+ This library enables developers to expand Dolphin with the ability to show
+ version control status in directories that are version controlled.
+
 Package: dolphin-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: dolphin, ${misc:Depends}
+Depends: dolphin (= ${binary:Version}), ${misc:Depends}
 Description: debugging symbols for Dolphin
  This package contains debugging files used to investigate problems
  with binaries included Dolphin
