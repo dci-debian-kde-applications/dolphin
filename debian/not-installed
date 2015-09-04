@@ -1,0 +1,4 @@
+# https://git.reviewboard.kde.org/r/124812/
+./usr/lib/*/libdolphinprivate.so
+./usr/lib/x86_64-linux-gnu/libdolphinprivate.so
+./usr/lib/i386-linux-gnu/libdolphinprivate.so

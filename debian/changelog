@@ -1,4 +1,10 @@
-dolphin (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
+dolphin (4:15.08.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 26 Aug 2015 16:57:40 +0100
+
+dolphin (4:15.07.90-0ubuntu1) wily; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * Non-maintainer upload.
@@ -9,7 +15,7 @@ dolphin (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
   * Split out dolphin and build with frameworks 5
   * new upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 10:41:03 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 09:24:49 +0100
 
 kde-baseapps (4:15.04.2-0ubuntu1) wily; urgency=medium
 
