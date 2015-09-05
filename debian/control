@@ -72,7 +72,9 @@ Package: libdolphinvcs-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libdolphinvcs5 (= ${binary:Version}),
+Depends: kio-dev,
+         libdolphinvcs5 (= ${binary:Version}),
+         qtbase5-dev,
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: dolphin (<< 4:15.07.90+git20150819.0900)
