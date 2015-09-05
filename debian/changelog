@@ -1,9 +1,9 @@
-dolphin (4:15.08.0-1~) UNRELEASED; urgency=medium
+dolphin (4:15.08.0-1) experimental; urgency=medium
 
   * Prepare plasma 5 version of dolphin.
   * Add missing dev dependency (thanks to acc headers check)
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Sep 2015 00:04:46 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Sep 2015 20:44:48 +0200
 
 dolphin (4:15.08.0-0ubuntu1) wily; urgency=medium
 
