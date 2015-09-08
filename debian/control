@@ -42,7 +42,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/dolphin.git
 Package: dolphin
 Section: utils
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libkf5baloowidgets-bin, ${misc:Depends}, ${shlibs:Depends}
 Recommends: ruby
 Suggests: dolphin-plugins
 Description: file manager
