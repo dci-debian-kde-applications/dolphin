@@ -43,7 +43,7 @@ Package: dolphin
 Section: utils
 Architecture: any
 Depends: libkf5baloowidgets-bin, ${misc:Depends}, ${shlibs:Depends}
-Recommends: ruby
+Recommends: libkonq-common, ruby
 Suggests: dolphin-plugins
 Description: file manager
  Dolphin is the default file manager in the Plasma, intended

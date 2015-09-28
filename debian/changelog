@@ -1,3 +1,10 @@
+dolphin (4:15.08.1-0ubuntu2) wily; urgency=medium
+
+  * Recommend libkonq-common LP: #1490221 "Ship libkonq-common in order to
+    fix dolphin 15.08 "create new" context menu"
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 28 Sep 2015 18:43:01 +0100
+
 dolphin (4:15.08.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release (15.08.1)
