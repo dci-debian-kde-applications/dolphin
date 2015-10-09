@@ -1,3 +1,9 @@
+dolphin (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 09 Oct 2015 13:06:36 -0700
+
 dolphin (4:15.08.1-0ubuntu2) wily; urgency=medium
 
   * Recommend libkonq-common LP: #1490221 "Ship libkonq-common in order to
