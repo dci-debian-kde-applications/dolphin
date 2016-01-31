@@ -94,12 +94,3 @@ Replaces: dolphin (<< 4:15.07.90+git20150819.0900)
 Description: library to show version control in Dolphin
  This library enables developers to expand Dolphin with the ability to show
  version control status in directories that are version controlled.
-
-Package: dolphin-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: dolphin (= ${binary:Version}), ${misc:Depends}
-Description: debugging symbols for Dolphin
- This package contains debugging files used to investigate problems
- with binaries included Dolphin
