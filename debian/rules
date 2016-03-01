@@ -3,7 +3,7 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_strip:
-	$(overridden_command) --ddeb-migration='dolphin-dbg (<= 4:15.12.1-1~~)'
+	$(overridden_command) --dbgsym-migration='dolphin-dbg (<= 4:15.12.1-1~~)'
 
 override_dh_auto_test:
 	# Disable unittest at build time
