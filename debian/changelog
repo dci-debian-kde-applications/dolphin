@@ -1,6 +1,6 @@
-dolphin (4:16.04.0-1~3.gbp881744) UNRELEASED; urgency=medium
+dolphin (4:16.04.1-1~1.gbp9e838e) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8817441fa7d12d32d5968323359012dd5582ca78 **
+  ** SNAPSHOT build @9e838efb238bfb28ddfc94d79e13ab73b9ac1ae9 **
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -16,8 +16,9 @@ dolphin (4:16.04.0-1~3.gbp881744) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update testsuite script
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 10 May 2016 12:51:16 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 23:51:14 +0200
 
 dolphin (4:15.12.1-1) experimental; urgency=medium
 
