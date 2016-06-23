@@ -1,3 +1,12 @@
+dolphin (4:16.04.2-2~1.gbp538f47) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @538f47cd927e5ccce996702ee84075bea580a668 **
+
+  * Add kio-extras recommends.
+    Thanks to HJ for the report (Closes: 803582)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 23 Jun 2016 14:51:28 +0200
+
 dolphin (4:16.04.2-1) unstable; urgency=medium
 
   * New upstream release.
