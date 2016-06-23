@@ -1,10 +1,8 @@
-dolphin (4:16.04.2-1~1.gbpf61d68) UNRELEASED; urgency=medium
+dolphin (4:16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @f61d688e59973503297cc739a326c726aaa0f0e7 **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 05:51:26 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Jun 2016 10:23:17 +0200
 
 dolphin (4:16.04.1-1) unstable; urgency=medium
 
