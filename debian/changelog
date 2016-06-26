@@ -4,6 +4,7 @@ dolphin (4:16.04.2-2) UNRELEASED; urgency=medium
   * Fix Vcs-* fields. (Closes: #805611)
   * Disable, only on hurd, the baloo-kf5-dev and libkf5baloowidgets-dev build
     dependencies, to let dolphin build there.
+  * Recommend kio-extras, used for thumbnails and not only. (Closes: #803582)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Jun 2016 06:39:17 +0200
 

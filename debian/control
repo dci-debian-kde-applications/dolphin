@@ -44,7 +44,7 @@ Package: dolphin
 Section: utils
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: ruby
+Recommends: ruby, kio-extras
 Suggests: dolphin-plugins
 Description: file manager
  Dolphin is the default file manager in the Plasma, intended
