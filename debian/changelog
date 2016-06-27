@@ -1,14 +1,18 @@
-dolphin (4:16.04.2-2~1.gbp538f47) UNRELEASED; urgency=medium
+dolphin (4:16.04.2-2~2.gbpc5eb45) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @538f47cd927e5ccce996702ee84075bea580a668 **
+  ** SNAPSHOT build @c5eb45a69a7b7e7f953d45f8f1154bef20e592d8 **
 
   [ Pino Toscano ]
   * Fix Vcs-* fields. (Closes: #805611)
   * Disable, only on hurd, the baloo-kf5-dev and libkf5baloowidgets-dev build
     dependencies, to let dolphin build there.
   * Recommend kio-extras, used for thumbnails and not only. (Closes: #803582)
+  * start a new changelog entry for 4:16.04.2-2
+  * fix Vcs-* fields (#805611)
+  * let dolphin build on hurd
+  * recommend kio-extras (#803582)
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Jun 2016 06:39:17 +0200
+ -- Pino Toscano <pino@debian.org>  Mon, 27 Jun 2016 12:38:54 +0200
 
 dolphin (4:16.04.2-1) unstable; urgency=medium
 
