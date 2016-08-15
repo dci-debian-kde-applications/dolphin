@@ -9,7 +9,6 @@ usr/lib/*/qt5/plugins/kcm_dolphingeneral.so
 usr/lib/*/qt5/plugins/kcm_dolphinnavigation.so
 usr/lib/*/qt5/plugins/kcm_dolphinservices.so
 usr/lib/*/qt5/plugins/kcm_dolphinviewmodes.so
-usr/share/appdata/org.kde.dolphin.appdata.xml
 usr/share/applications/org.kde.dolphin.desktop
 usr/share/config.kcfg/
 usr/share/dbus-1/services/org.kde.dolphin.FileManager1.service
@@ -17,3 +16,4 @@ usr/share/doc/
 usr/share/kservices5/
 usr/share/kservicetypes5/
 usr/share/kxmlgui5/
+usr/share/metainfo/org.kde.dolphin.appdata.xml
