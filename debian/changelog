@@ -1,10 +1,16 @@
-dolphin (4:16.04.3-1~1.gbpb6b795) UNRELEASED; urgency=medium
+dolphin (4:16.08.0-1~1.gbpf440fa) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @f440fa3b77d8b29a33308af5ea6ed285e4bb28e3 **
+
+  [ Pino Toscano ]
   ** SNAPSHOT build @b6b795178fd37198f1812bfe9167c4d7d48d0921 **
 
   * UNRELEASED
 
- -- Pino Toscano <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 23:51:29 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 23:51:22 +0200
 
 dolphin (4:16.04.2-2) unstable; urgency=medium
 
