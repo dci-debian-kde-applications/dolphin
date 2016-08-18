@@ -7,29 +7,29 @@ Build-Depends: baloo-kf5-dev (>= 4.97~) [!hurd-any],
                cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.6.0~),
-               kdoctools-dev (>= 5.19.0~),
-               kinit-dev (>= 5.19.0~),
-               kio-dev (>= 5.19.0~),
-               libkf5activities-dev (>= 5.19.0~),
+               kdoctools-dev (>= 5.21.0~),
+               kinit-dev (>= 5.21.0~),
+               kio-dev (>= 5.21.0~),
+               libkf5activities-dev (>= 5.21.0~),
                libkf5baloowidgets-dev (>= 4.97~) [!hurd-any],
-               libkf5bookmarks-dev (>= 5.19.0~),
-               libkf5completion-dev (>= 5.19.0~),
-               libkf5config-dev (>= 5.19.0~),
-               libkf5coreaddons-dev (>= 5.19.0~),
-               libkf5crash-dev (>= 5.19.0~),
-               libkf5dbusaddons-dev (>= 5.19.0~),
+               libkf5bookmarks-dev (>= 5.21.0~),
+               libkf5completion-dev (>= 5.21.0~),
+               libkf5config-dev (>= 5.21.0~),
+               libkf5coreaddons-dev (>= 5.21.0~),
+               libkf5crash-dev (>= 5.21.0~),
+               libkf5dbusaddons-dev (>= 5.21.0~),
                libkf5filemetadata-dev (>= 5.19.0~),
-               libkf5i18n-dev (>= 5.19.0~),
-               libkf5iconthemes-dev (>= 5.19.0~),
-               libkf5kcmutils-dev (>= 5.19.0~),
-               libkf5kdelibs4support-dev (>= 5.19.0~),
-               libkf5newstuff-dev (>= 5.19.0~),
-               libkf5notifications-dev (>= 5.19.0~),
-               libkf5parts-dev (>= 5.19.0~),
-               libkf5solid-dev (>= 5.19.0~),
+               libkf5i18n-dev (>= 5.21.0~),
+               libkf5iconthemes-dev (>= 5.21.0~),
+               libkf5kcmutils-dev (>= 5.21.0~),
+               libkf5kdelibs4support-dev (>= 5.21.0~),
+               libkf5newstuff-dev (>= 5.21.0~),
+               libkf5notifications-dev (>= 5.21.0~),
+               libkf5parts-dev (>= 5.21.0~),
+               libkf5solid-dev (>= 5.21.0~),
                libkf5texteditor-dev (>= 5.7.0~),
-               libkf5textwidgets-dev (>= 5.19.0~),
-               libkf5windowsystem-dev (>= 5.19.0~),
+               libkf5textwidgets-dev (>= 5.21.0~),
+               libkf5windowsystem-dev (>= 5.21.0~),
                libphonon4qt5-dev,
                libphonon4qt5experimental-dev,
                pkg-config,
@@ -44,7 +44,7 @@ Package: dolphin
 Section: utils
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: ruby, kio-extras
+Recommends: kio-extras, ruby
 Suggests: dolphin-plugins
 Description: file manager
  Dolphin is the default file manager in the Plasma, intended
@@ -74,7 +74,7 @@ Package: libdolphinvcs-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: kio-dev (>= 5.19.0~),
+Depends: kio-dev (>= 5.21.0~),
          libdolphinvcs5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4.0~),
          ${misc:Depends},
