@@ -1,6 +1,6 @@
-dolphin (4:16.08.1-1~1.gbp8685fb) UNRELEASED; urgency=medium
+dolphin (4:16.08.2-1~1.gbp85a055) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8685fb75d61c7d2e8ca517c746c6813dce6d242d **
+  ** SNAPSHOT build @85a0556bfb392b04e35b99014974e77ec6e57c56 **
 
   [ Pino Toscano ]
   ** SNAPSHOT build @b6b795178fd37198f1812bfe9167c4d7d48d0921 **
@@ -10,11 +10,12 @@ dolphin (4:16.08.1-1~1.gbp8685fb) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Update install files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 23:51:43 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 23:51:34 +0200
 
 dolphin (4:16.04.2-2) unstable; urgency=medium
 
