@@ -1,21 +1,13 @@
-dolphin (4:16.08.2-1~1.gbp85a055) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @85a0556bfb392b04e35b99014974e77ec6e57c56 **
-
-  [ Pino Toscano ]
-  ** SNAPSHOT build @b6b795178fd37198f1812bfe9167c4d7d48d0921 **
-
-  * UNRELEASED
+dolphin (4:16.08.2-1) unstable; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * New upstream release (16.08.2)
   * Update install files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 23:51:34 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 00:03:56 +0200
 
 dolphin (4:16.04.2-2) unstable; urgency=medium
 
