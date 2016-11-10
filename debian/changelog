@@ -1,3 +1,11 @@
+dolphin (4:16.08.3-1~1.gbpd78674) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @d78674a05c8e3d1f0928fd0888c9729f2c722f64 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 23:51:53 +0100
+
 dolphin (4:16.08.2-1) unstable; urgency=medium
 
   [ Automatic packaging ]
