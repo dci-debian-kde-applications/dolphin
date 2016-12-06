@@ -1,3 +1,10 @@
+dolphin (4:16.08.3-2~2) UNRELEASED; urgency=medium
+
+  * Drop baloo support
+  * Add kinit runtime dependency
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 06 Dec 2016 21:52:52 +0100
+
 dolphin (4:16.08.3-1) unstable; urgency=medium
 
   * New upstream release (16.08.3)
