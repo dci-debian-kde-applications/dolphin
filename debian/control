@@ -43,7 +43,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/dolphin.git
 Package: dolphin
 Section: utils
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kinit, ${misc:Depends}, ${shlibs:Depends}
 Recommends: kio-extras, ruby
 Suggests: dolphin-plugins
 Description: file manager
