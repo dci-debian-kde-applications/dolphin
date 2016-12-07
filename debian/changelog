@@ -1,3 +1,11 @@
+dolphin (4:16.08.3-3) unstable; urgency=medium
+
+  * Reenable baloo support with the baloo-kf5 runtime dependency, now that
+    the baloo file indexer is disabled by default this doesn't impose a
+    resource toll anymore.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 07 Dec 2016 14:48:30 +0100
+
 dolphin (4:16.08.3-2) unstable; urgency=medium
 
   * Drop baloo support
