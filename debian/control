@@ -34,7 +34,7 @@ Build-Depends: baloo-kf5-dev (>= 4.97~) [!hurd-any],
                libphonon4qt5experimental-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev (>= 5.4.0~)
+               qtbase5-dev (>= 5.4.0~),
 Standards-Version: 4.1.0
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/dolphin.git
@@ -80,7 +80,7 @@ Depends: kio-dev (>= 5.21.0~),
          libdolphinvcs5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4.0~),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Breaks: dolphin (<< 4:15.07.90+git20150819.0900)
 Replaces: dolphin (<< 4:15.07.90+git20150819.0900)
 Description: library to show version control in Dolphin - development files
