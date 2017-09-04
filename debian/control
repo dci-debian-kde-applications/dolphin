@@ -48,6 +48,8 @@ Architecture: any
 Depends: baloo-kf5, kinit, ${misc:Depends}, ${shlibs:Depends}
 Recommends: kio-extras, ruby
 Suggests: dolphin-plugins
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: file manager
  Dolphin is the default file manager in the Plasma, intended
  to be both powerful and easy to use.
