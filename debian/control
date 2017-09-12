@@ -46,7 +46,7 @@ Architecture: any
 Depends: baloo-kf5, kinit, ${misc:Depends}, ${shlibs:Depends}
 Recommends: kio-extras, ruby
 Suggests: dolphin-plugins
-Breaks: ${kde-l10n:all}
+Breaks: dolphin-plugins (<< 4:17.08), ${kde-l10n:all}
 Replaces: ${kde-l10n:all}
 Description: file manager
  Dolphin is the default file manager in the Plasma, intended
@@ -91,7 +91,7 @@ Package: libdolphinvcs5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: dolphin (<< 4:15.07.90+git20150819.0900)
+Breaks: dolphin (<< 4:15.07.90+git20150819.0900), dolphin-plugins (<< 4:17.08)
 Replaces: dolphin (<< 4:15.07.90+git20150819.0900)
 Description: library to show version control in Dolphin
  This library enables developers to expand Dolphin with the ability to show
