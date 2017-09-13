@@ -1,0 +1,64 @@
+---
+name: dolphin
+version: 17.08.1
+summary: File Manager
+description: |-
+    Dolphin is a lightweight file manager. It has been designed with ease of use and simplicity in mind, while still allowing flexibility and customisation. This means that you can do your file management exactly the way you want to do it.
+
+    Features:
+
+    - Navigation (or breadcrumb) bar for URLs, allowing you to quickly navigate through the hierarchy of files and folders.
+    - Supports several different kinds of view styles and properties and allows you to configure the view exactly how you want it.
+    - Split view, allowing you to easily copy or move files between locations.
+    - Additional information and shortcuts are available as dock-able panels, allowing you to move them around freely and display exactly what you want.
+    - Multiple tab support
+    - Informational dialogues are displayed in an unobtrusive way.
+    - Undo/redo support
+    - Transparent network access through the KIO system.
+confinement: strict
+grade: stable
+apps:
+    dolphin:
+        command: kf5-launch dolphin
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+slots:
+    session-dbus-interface:
+        interface: dbus
+        name: org.kde.dolphin
+        bus: session
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    dolphin:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        - libkf5baloowidgets-dev
+        - libkf5kdelibs4support-dev
+        - libphonon4qt5-dev
+        - libphonon4qt5experimental-dev
+        - pkg-config
+        - libpulse0
+        source: https://download.kde.org/stable/applications/17.08.1/src/dolphin-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
