@@ -10,6 +10,8 @@ dolphin (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Fix typo in an old changelog entry.
   * Drop not-installed file, no more needed.
   * Switch kio-dev dependency to libkf5kio-dev in libdolphinvcs-dev.
+  * Drop unused ${shlibs:Depends} substvar from dolphin-dev, and
+    libdolphinvcs-dev.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Nov 2017 09:37:34 +0100
 
