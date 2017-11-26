@@ -8,6 +8,7 @@ dolphin (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Simplify watch file, and switch it to https.
   * Move libdolphinvcs5 to section libs, as it contains a shared library.
   * Fix typo in an old changelog entry.
+  * Drop not-installed file, no more needed.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Nov 2017 09:37:34 +0100
 
