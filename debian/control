@@ -44,7 +44,7 @@ Package: dolphin
 Section: utils
 Architecture: any
 Depends: baloo-kf5, kinit, ${misc:Depends}, ${shlibs:Depends}
-Recommends: kio-extras, ruby
+Recommends: kimageformat-plugins, kio-extras, ruby
 Suggests: dolphin-plugins
 Breaks: dolphin-plugins (<< 4:17.08), ${kde-l10n:all}
 Replaces: ${kde-l10n:all}
