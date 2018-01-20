@@ -64,7 +64,7 @@ Description: file manager
 Package: dolphin-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
+Multi-Arch: same
 Depends: ${misc:Depends}
 Breaks: dolphin (<< 4:15.07.90+git20150819.0900)
 Replaces: dolphin (<< 4:15.07.90+git20150819.0900)
